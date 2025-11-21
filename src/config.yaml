@@ -1,0 +1,12 @@
+video_path: "data/raw_videos/video.MP4"
+
+model:
+  path: "models/yolov8n.pt"
+  target_class: "car"
+  conf_threshold: 0.5
+
+processing:
+  step_frames: 15
+
+output:
+  folder: "data/outputs"
